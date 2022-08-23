@@ -28,18 +28,18 @@ public class AddressBook {
      sc.nextLine();
      System.out.println("Enter phone number: ");
      Long phoneNum = sc.nextLong();
-       sc.nextLine();
-	  System.out.println("Enter your EMail : ");
-	   String email = sc.nextLine();
+     sc.nextLine();
+	 System.out.println("Enter your EMail : ");
+	 String email = sc.nextLine();
 
 	   person.setFirstName(firstName);
-	    person.setFirstName(lastName);
-	    person.setAddress(address);
-	    person.setCity(city);
-	    person.setState(state);
-	    person.setZip(Math.toIntExact(zipCode));
-	    person.setPhoneNumber(String.valueOf(phoneNum));
-	    person.setEmail(email);
+	   person.setFirstName(lastName);
+	   person.setAddress(address);
+	   person.setCity(city);
+	   person.setState(state);
+	   person.setZip(Math.toIntExact(zipCode));
+	   person.setPhoneNumber(String.valueOf(phoneNum));
+	   person.setEmail(email);
 	    contactList.add(person);
 
 	    }
